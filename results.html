@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WAI-ARIA usage results</title>
+<link rel="stylesheet" href="results.css">
+</head>
+<body>
+
+<header class="runbar">
+  <div class="runbar__source">
+    <span class="runbar__label">Checked</span>
+    <span class="runbar__url" id="source-url">&hellip;</span>
+    <span class="runbar__time" id="source-time"></span>
+  </div>
+  <button type="button" id="save" class="button" hidden>Save report</button>
+</header>
+
+<main id="report" class="report" tabindex="-1">
+  <p class="loading" id="loading">Building the report&hellip;</p>
+</main>
+
+<footer class="credit">
+  <p>
+    Checks by the
+    <a href="https://github.com/TetraLogical/WAI-ARIA-Usage">WAI-ARIA Usage</a>
+    bookmarklet from TPGi and TetraLogical, packaged as an extension. Rules
+    follow
+    <a href="https://www.w3.org/TR/html-aria/">ARIA in HTML</a>.
+  </p>
+</footer>
+
+<script src="results.js"></script>
+</body>
+</html>
